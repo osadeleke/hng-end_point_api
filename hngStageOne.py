@@ -11,8 +11,8 @@ def my_endpoint_function():
     current_day = datetime.datetime.utcnow().strftime('%A')
     utc_time = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
-    github_file_url = "https://github.com/osadeleke/"
-    github_repo_url = "https://github.com/osadeleke/hng-end_point_api/blob/master/hngStageOne.py"
+    github_repo_url = "https://github.com/osadeleke/"
+    github_file_url = "https://github.com/osadeleke/hng-end_point_api/blob/master/hngStageOne.py"
 
     response = {
             "slack_name": slack_name,
