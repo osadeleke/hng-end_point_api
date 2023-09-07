@@ -26,4 +26,4 @@ def my_endpoint_function():
     return jsonify(response)
 
 if __name__ == '__main__':
-    hngStageOne.run(host='0.0.0.0', port=5000)
+    hngStageOne.run()
