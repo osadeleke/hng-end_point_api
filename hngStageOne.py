@@ -12,7 +12,7 @@ def my_endpoint_function():
     utc_time = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
     github_file_url = "https://github.com/osadeleke/"
-    github_repo_url = "https://github.com/osadeleke/hng-end_point_api"
+    github_repo_url = "https://github.com/osadeleke/hng-end_point_api/blob/30d168cb933fa93fc844323faf71bd0146cb2101/hngStageOne.py"
 
     response = {
             "slack_name": slack_name,
