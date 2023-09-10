@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify
 import sqlite3
+from flask_cors import CORS
 
 stageTwo = Flask(__name__)
+CORS(stageTwo)
 
 # SQLite database configuration
 DB_NAME = 'database.db'
